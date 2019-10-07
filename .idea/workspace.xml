@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a155fcdf-8ca8-48b9-9969-71aac26af08f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570450920281</updated>
-      <workItem from="1570450921718" duration="3610000" />
+      <workItem from="1570450921718" duration="5668000" />
     </task>
     <task id="LOCAL-00001" summary="DogStore">
       <created>1570453929004</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570453929004</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BrowserRouter">
+      <created>1570455050356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570455050356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DogStore" />
-    <option name="LAST_COMMIT_MESSAGE" value="DogStore" />
+    <MESSAGE value="BrowserRouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="BrowserRouter" />
   </component>
 </project>
