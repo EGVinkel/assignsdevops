@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import {HashRouter, Link, Route, Switch, withRouter} from "react-router-dom";
+import {Link, Route, Switch, withRouter} from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import {dogStore} from "./stores/DogStore";
 import {observer} from "mobx-react";
@@ -17,16 +17,12 @@ function App() {
           <p>
             Devops- get a dog day
           </p>
-          <HashRouter>
-            <Link to={"/about/dogs"}>Look at About!</Link>
-            <div>
-              <Switch>
-                <Route path={"/about/:text"} component={About}/>
-                <Route exact path={"/"} render={()=><h1>Frontpage</h1>}/>
-                <Route render={()=><h2>noMatch - 404</h2>}/>
-              </Switch>
-            </div>
-          </HashRouter>
+          <Link to={"/about/dogs"}>Look at About!</Link>
+          <Switch>
+            <Route path={"/about/:text"} component={About}/>
+            <Route exact path={"/"} render={()=><h1>Startside</h1>}/>
+            <Route render={()=><h2>noMatch - 404</h2>}/>
+          </Switch>
           <ul>
             {dogStore.dogs.map((dogName,key)=>
                 <li key={key}>{dogName}</li>
